@@ -38,11 +38,11 @@ p{
     border-radius: 5px; 
 }
 
-.image-slice{
-    border-image: linear-gradient(blue yellow);
+.image-slice{ 
     border-image-slice: 1;
-    border-left: 5px solid rgba(199, 82, 15, 0.575);
+    border-left: 5px solid rgba(204, 3, 87, 0.575);
     border-radius: 5px;
+    padding-left: 10px;
 }
 #center{
     text-align: center;
@@ -63,7 +63,7 @@ p{
     background-color: rgb(146, 172, 143);
 }
 .experience-item img{
-    width: 50%;
+    width: 40%;
 }
 .second-section h1{
     font-size: 20px;
@@ -98,6 +98,12 @@ font-weight: 900;
 padding-top: 20px;
 font-size: 35px;
 font-weight: 900;
+}
+.last-section{
+    padding-top: 50px;
+    text-align:center;
+    font-size: 40px;
+    color: darksalmon;
 }
 
 footer{
